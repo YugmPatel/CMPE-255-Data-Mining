@@ -2,8 +2,8 @@
 ## Description
 We need to provide video of us using github cursor ai in visual studio code and having it code some interesting projects. I have made a portfolio website.
 ## Technology Stack
-Frontend: HTML, CSS, Vanilla JavaScript
-AI Pair Programmer: Cursor AI
+* Frontend: HTML, CSS, Vanilla JavaScript
+* AI Pair Programmer: Cursor AI
 ## Youtube Link
 https://youtu.be/iZzbnKx00Gw
 ## Setup
