@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yugm Patel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">YP</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
 
+    <main>
+        <section id="hero">
+            <h1>Yugm Patel</h1>
+            <p>Web Developer & LLM Enthusiast</p>
+            <a href="#contact" class="cta-button">Get in touch</a>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a web developer with a passion for learning about Large Language Models (LLMs). My goal is to combine my web development skills with cutting-edge AI technologies to create innovative solutions.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Master of Science in Software Engineering</h3>
+                    <p>San Jose State University</p>
+                    <p>Currently Pursuing</p>
+                </div>
+                <div class="card">
+                    <h3>Bachelor of Computer Engineering with Cloud Computing</h3>
+                    <p>Silver Oak University</p>
+                    <p>Completed</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Cloud Engineer</h3>
+                    <p>Technotery</p>
+                </div>
+                <div class="card">
+                    <h3>Python Engineer Trainee</h3>
+                    <p>Webinent</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card-container">
+                <div class="card">HTML</div>
+                <div class="card">CSS</div>
+                <div class="card">JavaScript</div>
+                <div class="card">ReactJS</div>
+                <div class="card">C</div>
+                <div class="card">Python</div>
+                <div class="card">AWS</div>
+                <div class="card">Google Firebase</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>WealthMinds - Learning Management System</h3>
+                    <p>Tech Stack: ReactJS, Google Firebase, AWS, Bootstrap, Material UI</p>
+                </div>
+                <div class="card">
+                    <h3>Student Home - Hostel Management System</h3>
+                    <p>Tech Stack: HTML, CSS, JavaScript</p>
+                </div>
+                <div class="card">
+                    <h3>Netflix Clone</h3>
+                    <p>Tech Stack: HTML, CSS</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Yugm Patel. All rights reserved.</p>
+        <div class="social-links">
+            <!-- Add your social media icons here -->
+        </div>
+    </footer>
+</body>
+</html>
